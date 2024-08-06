@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, viewport-fit=cover">
+    <title>To-Do List Application</title>
+    <link rel="manifest" href="app.webmanifest?1">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <script src="sw-register.js" defer></script>
+    <meta name="theme-color" content="#ff9800">
+    <link rel="apple-touch-icon" href="icons/icon-512.png">
+</head>
+
+<body>
+    <h1>Codepad Masters - To-Do List</h1>
+    <form id="noteForm">
+        <textarea placeholder="Enter your new note"></textarea>
+        <button type="submit">
+            <span class="icon">save</span>                
+            Add
+        </button>
+    </form>
+    <ul id="notes">
+\    </ul>
+    <ul id="toolbar">
+        
+        <li id="itemInstall">
+            <button id="btnInstall">
+                <span class="icon">download</span>                
+                Install                 
+            </button>
+        </li>
+    </ul>
+</body>
+</html>
